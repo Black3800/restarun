@@ -1,0 +1,92 @@
+.modal
+{
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.4);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  display: none;
+  transition: opacity 0.5s;
+}
+
+.modal-dialog
+{
+  width: 70vw;
+  min-width: 300px;
+  height: 60vh;
+  max-height: 400px;
+  background: var(--color-white-1);
+  color: var(--color-brown-1);
+  position: fixed;
+  top: 22vh;
+  left: 14vw;
+  border-radius: 10px;
+  transition: top 0.8s;
+}
+
+.modal-dialog-title
+{
+  width: 90%;
+  height: 50px;
+  border-bottom: 1px solid var(--color-white-3);
+  position: absolute;
+  top: 0px;
+  left: 5%;
+  line-height: 55px;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.modal-dialog-content
+{
+  width: 90%;
+  height: 65%;
+  position: absolute;
+  top: 65px;
+  left: 5%;
+  padding: 10px;
+  text-indent: 50px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+.modal-dialog-btn-group
+{
+  width: 90%;
+  height: 50px;
+  position: absolute;
+  bottom: 10px;
+  left: 5%;
+}
+
+.modal-dialog-btn
+{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  background: var(--color-sky-3);
+  border-radius: 5px;
+  color: var(--color-white-1);
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.modal-dialog-btn:hover
+{
+  background: var(--color-sky-2);
+}
+
+.modal-dialog-btn-cancel
+{
+  background: var(--color-white-2);
+  color: var(--color-black-2);
+}
+
+.modal-dialog-btn-cancel:hover
+{
+  background: var(--color-white-3)!important;
+}

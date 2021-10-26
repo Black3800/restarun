@@ -1,0 +1,99 @@
+@font-face
+{
+  font-family: 'TH Sarabun New';
+  src: url('../../res/THSarabunNew.ttf');
+}
+
+:root
+{
+  --color-brown-1: #C15700;
+  --color-brown-2: #FF7400;
+  --color-brown-3: #FF9034;
+  --color-brown-4: #FFA459;
+  --color-brown-5: #FFBC84;
+  --color-yellow-1: #7C5800;
+  --color-yellow-2: #A37A14;
+  --color-yellow-3: #DDA51A;
+  --color-yellow-4: #DFB652;
+  --color-yellow-5: #FFDC86;
+  --color-blue-1: #0A1655;
+  --color-blue-2: #1A2870;
+  --color-blue-3: #233597;
+  --color-blue-4: #445199;
+  --color-blue-5: #6874B2;
+  --color-sky-1: #03394E;
+  --color-sky-2: #114F66;
+  --color-sky-3: #166B8B;
+  --color-sky-4: #37748C;
+  --color-sky-5: #5A90A4;
+  --color-black-1: #111111;
+  --color-black-2: #555555;
+  --color-black-3: #999999;
+  --color-white-1: #eeeeee;
+  --color-white-2: #cccccc;
+  --color-white-3: #aaaaaa;
+  --color-gray-1: #eaeaea;
+  --color-gray-2: #e0e0e0;
+  --color-gray-3: #d6d6d6;
+  --color-success: #61ff28;
+  --color-success-light: #bbffa3;
+  --color-warn: #ffd728;
+  --color-warn-light: #ffec99;
+  --color-error: #ff452d;
+  --color-error-light: #ffb2a8;
+  --color-info: #2ddcff;
+  --color-info-light: #99eeff;
+}
+
+body
+{
+  width: 97vw;
+  height: 97vh;
+  margin: 0px;
+  padding: 10px;
+  overflow-x: hidden;
+  font-family: 'TH Sarabun New', sans;
+  font-size: 1.5em;
+  background-image: var(--color-brown-2);
+  background-image: -webkit-radial-gradient(var(--color-brown-2), var(--color-brown-3));
+  background-image: -moz-radial-gradient(var(--color-brown-2), var(--color-brown-3));
+  background-image: -o-radial-gradient(var(--color-brown-2), var(--color-brown-3));
+  background-image: -ms-radial-gradient(var(--color-brown-2), var(--color-brown-3));
+  background-image: radial-gradient(var(--color-brown-2), var(--color-brown-3));
+  background-color: #FF9034;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: var(--color-white-1);
+  overflow-x: hidden;
+}
+
+.global_content-heading1
+{
+  margin-top: 5px;
+  padding: 0px;
+}
+
+.global_logout
+{
+  width: 90vw;
+  height: 50px;
+  background: var(--color-error);
+  position: absolute;
+  top: 70px;
+  left: 5vw;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.global_logout:hover
+{
+  filter: brightness(0.9);
+}
+
+#content
+{
+  width: 100vw;
+}

@@ -1,0 +1,1 @@
+spa.getPage("manager.php", {});

@@ -1,0 +1,204 @@
+@media only screen and (max-width: 375px) {
+  .register_form-wrapper
+  {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .register_form-wrapper
+  {
+    font-size: 110%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .register_form-wrapper
+  {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .register_form-wrapper
+  {
+    font-size: 130%;
+  }
+}
+
+.register_content-heading1
+{
+  width: 100%;
+  height: 28vh;
+  text-align: center;
+  font-size: 2.5em;
+  position: absolute;
+  top: 0vh;
+  line-height: 28vh;
+  margin: 0px;
+}
+
+.register_terms
+{
+  width: 90%;
+  height: 35vh;
+  overflow-y: scroll;
+  background: var(--color-brown-5);
+  position: relative;
+  left: 5%;
+  margin: 15px 0px;
+  margin-top: 40px;
+  padding: 15px;
+  padding-top: 55px;
+  box-sizing: border-box;
+  color: var(--color-brown-1);
+  text-indent: 50px;
+  line-height: 28px;
+  position: absolute;
+  top: 85vh;
+}
+
+.register_terms::before
+{
+  content: 'Terms & Conditions';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 45px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  line-height: 45px;
+  background: var(--color-blue-3);
+  font-weight: bold;
+  text-indent: 0px;
+  color: var(--color-white-1);
+}
+
+.register_form-input-container
+{
+  width: 95%;
+  position: absolute;
+  top: 35vh;
+  left: 2%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.register_form-input-group
+{
+  width: 100%;
+  height: 5vh;
+  position: relative;
+}
+
+.register_form-input
+{
+  width: 60%;
+  height: 5vh;
+  position: absolute;
+  right: 15%;
+}
+
+.register_form-label
+{
+  height: 5vh;
+  line-height: 5vh;
+  position: relative;
+  left: 10%;
+}
+
+@media only screen and (max-width: 1128px) {
+  .register_form-label
+  {
+    display: block;
+    width: 100%;
+  }
+}
+
+.register_submit
+{
+  width: 90%;
+  height: 8vh;
+  min-width: 7cm;
+  max-width: 16cm;
+  background: var(--color-blue-3);
+  text-align: center;
+  line-height: 8vh;
+  transition: background 0.2s;
+  cursor: pointer;
+  font-size: 1.5em;
+  position: absolute;
+  top: 130vh;
+  left: 4vw;
+  margin-bottom: 5vh;
+}
+
+.register_submit:hover
+{
+  background: var(--color-blue-2);
+}
+
+.register_nav-index
+{
+  width: 30vh;
+  max-width: 5cm;
+  height: 7vh;
+  min-height: 1cm;
+  cursor: pointer;
+  position: absolute;
+  top: 2vh;
+  left: 2vh;
+  background: rgba(153, 238, 255, 0.3);
+  border: 1px solid var(--color-info);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.5cm;
+}
+
+@media only screen and (max-height: 630px) {
+  .register_nav-index
+  {
+    line-height: 1.4cm;
+  }
+}
+
+@media only screen and (max-height: 550px) {
+  .register_nav-index
+  {
+    line-height: 1.3cm;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  .register_nav-index
+  {
+    line-height: 1.2cm;
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-height: 450px) {
+  .register_nav-index
+  {
+    line-height: 1.1cm;
+    font-size: 1.2em;
+  }
+}
+
+.register_nav-index:hover
+{
+  background: rgba(153, 238, 255, 0.4);
+}
+
+.register_form-input-container
+{
+  width: 100%;
+  height: 60vh;
+  position: absolute;
+  top: 20vh;
+}
